@@ -11,67 +11,53 @@
       </stop>
     </linearGradient>
 
-    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="textShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
   </defs>
 
-  <!-- Animated blob BEHIND only "I'm" -->
-  <g filter="url(#shadow)">
-    <path fill="url(#blobGrad)" opacity="0.95">
-      <animate attributeName="d" dur="5.8s" repeatCount="indefinite"
+  <!-- Animated blob behind only "I'm" (more organic, Alex-like) -->
+  <g filter="url(#softShadow)">
+    <path fill="url(#blobGrad)" opacity="0.96">
+      <animate attributeName="d" dur="5.6s" repeatCount="indefinite"
         values="
-          M560,62
-          C628,30 705,48 726,98
-          C747,148 707,198 640,205
-          C573,212 504,185 492,138
-          C480,91 506,82 560,62 Z;
+          M520,62
+          C590,30 690,40 705,100
+          C720,160 660,205 590,205
+          C520,205 470,165 470,120
+          C470,85 485,76 520,62 Z;
 
-          M560,56
-          C640,24 716,60 734,112
-          C752,164 694,205 625,212
-          C556,219 486,176 482,126
-          C478,76 506,74 560,56 Z;
+          M520,56
+          C600,22 700,48 715,112
+          C730,176 652,214 580,212
+          C508,210 460,166 462,118
+          C464,78 486,72 520,56 Z;
 
-          M554,70
-          C624,40 704,48 724,102
-          C744,156 704,196 638,203
-          C572,210 505,186 492,144
-          C479,102 500,90 554,70 Z;
+          M514,70
+          C592,40 690,46 705,104
+          C720,162 660,202 592,205
+          C524,208 468,172 468,126
+          C468,94 485,82 514,70 Z;
 
-          M560,62
-          C628,30 705,48 726,98
-          C747,148 707,198 640,205
-          C573,212 504,185 492,138
-          C480,91 506,82 560,62 Z
+          M520,62
+          C590,30 690,40 705,100
+          C720,160 660,205 590,205
+          C520,205 470,165 470,120
+          C470,85 485,76 520,62 Z
         "/>
-      <animateTransform attributeName="transform" type="translate" dur="4.6s" repeatCount="indefinite"
-        values="0 0; 8 2; 0 0"/>
+      <animateTransform attributeName="transform" type="translate" dur="4.8s" repeatCount="indefinite"
+        values="0 0; 10 3; 0 0"/>
     </path>
   </g>
 
-  <!-- BIG title (separate text nodes like Alex) -->
-  <text x="290" y="165" text-anchor="middle"
-        font-size="96" font-weight="900"
-        fill="#FFFFFF" stroke="#0B0F19" stroke-opacity="0.55" stroke-width="10"
-        paint-order="stroke"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
-    Hey!
-  </text>
-
-  <text x="610" y="165" text-anchor="middle"
-        font-size="96" font-weight="900"
-        fill="#FFFFFF" stroke="#0B0F19" stroke-opacity="0.55" stroke-width="10"
-        paint-order="stroke"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
-    I’m
-  </text>
-
-  <text x="860" y="165" text-anchor="middle"
-        font-size="96" font-weight="900"
-        fill="#FFFFFF" stroke="#0B0F19" stroke-opacity="0.55" stroke-width="10"
-        paint-order="stroke"
-        font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
-    Ali
-  </text>
+  <!-- Big title (clean, no ugly outline) -->
+  <g filter="url(#textShadow)" font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-weight="900" fill="#FFFFFF">
+    <text x="360" y="170" text-anchor="middle" font-size="104">Hey!</text>
+    <text x="588" y="170" text-anchor="middle" font-size="104">I’m</text>
+    <text x="780" y="170" text-anchor="middle" font-size="104">Ali</text>
+  </g>
 </svg>
