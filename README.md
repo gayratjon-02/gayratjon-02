@@ -1,92 +1,39 @@
 <div align="center">
+  <!-- Hero (animated) -->
+  <img
+    src="https://raw.githubusercontent.com/gayratjon-02/gayratjon-02/main/assets/hero.svg?v=1"
+    alt="Hey! I'm Ali"
+    width="980"
+  />
 
-<!-- BIG Title with animated blob behind only "I'm" -->
-<svg width="100%" viewBox="0 0 1100 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hey! I'm Gayratjon">
-  <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%">
-        <animate attributeName="stop-color" dur="7s" repeatCount="indefinite"
-          values="#7B78FF;#9B8CFF;#6F6DFF;#7B78FF"/>
-      </stop>
-      <stop offset="100%">
-        <animate attributeName="stop-color" dur="7s" repeatCount="indefinite"
-          values="#4B49E6;#6A68F0;#3E3CD8;#4B49E6"/>
-      </stop>
-    </linearGradient>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="0.4"/>
-    </filter>
-  </defs>
+  <br/>
 
-  <!-- Animated blob positioned behind "I'm" -->
-  <g>
-    <path fill="url(#g)" opacity="0.95" filter="url(#soft)">
-      <animate attributeName="d" dur="6s" repeatCount="indefinite"
-        values="
-          M560,70
-          C615,40 685,48 710,95
-          C735,142 705,190 650,198
-          C595,206 525,185 510,140
-          C495,95 515,87 560,70 Z;
+  <strong>Full-Stack Developer</strong>
 
-          M560,62
-          C625,32 695,58 715,105
-          C735,152 690,195 635,203
-          C580,211 510,180 502,132
-          C494,84 515,78 560,62 Z;
+  <br/><br/>
 
-          M555,74
-          C612,45 684,48 708,98
-          C732,148 702,188 648,196
-          C594,204 525,184 510,143
-          C495,102 512,92 555,74 Z;
+  <a href="https://www.upwork.com/freelancers/~01719c3ae301384b5f?mp_source=share">Upwork</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/gayratjon-02?tab=repositories">Projects</a>
 
-          M560,70
-          C615,40 685,48 710,95
-          C735,142 705,190 650,198
-          C595,206 525,185 510,140
-          C495,95 515,87 560,70 Z
-        "/>
-      <animateTransform attributeName="transform" type="translate" dur="4.8s" repeatCount="indefinite"
-        values="0 0; 8 2; 0 0"/>
-    </path>
-  </g>
-
-  <!-- BIG Title text (3 separate texts so blob stays only behind "I'm") -->
-  <text x="290" y="155" text-anchor="middle"
-        font-size="96" font-weight="900"
-        fill="#FFFFFF"
-        font-family="Inter, Segoe UI, Arial, sans-serif">
-    Hey!
-  </text>
-
-  <text x="610" y="155" text-anchor="middle"
-        font-size="96" font-weight="900"
-        fill="#FFFFFF"
-        font-family="Inter, Segoe UI, Arial, sans-serif">
-    I’m
-  </text>
-
-  <text x="870" y="155" text-anchor="middle"
-        font-size="96" font-weight="900"
-        fill="#FFFFFF"
-        font-family="Inter, Segoe UI, Arial, sans-serif">
-    Gayratjon
-  </text>
-</svg>
-
-<br/>
-
-<strong>Full-Stack Developer</strong>
-
-<br/><br/>
-
-<a href="https://www.upwork.com/freelancers/~01719c3ae301384b5f?mp_source=share">Upwork Profile</a>
-
-<br/><br/>
+  <br/><br/>
+</div>
 
 ## Languages and Tools
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,nestjs,graphql,express,postgres,mongodb,redis,docker,nginx,aws,linux&perline=15" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,nestjs,graphql,express,mongodb,postgres,redis,docker,nginx,aws,linux&perline=15" />
 
-</div>
+<br/>
+
+## Feel free to drop me a line
+
+<a href="mailto:your.email@example.com">
+  <img src="https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.upwork.com/freelancers/~01719c3ae301384b5f?mp_source=share">
+  <img src="https://img.shields.io/badge/Upwork-Hire%20Me-14a800?style=for-the-badge&logo=upwork&logoColor=white" />
+</a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=gayratjon-02&style=flat&label=visitors" alt="visitors" />
