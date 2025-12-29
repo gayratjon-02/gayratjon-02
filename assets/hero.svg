@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" width="1100" height="260" role="img" aria-label="Hey! I'm Ali">
+  <defs>
+    <linearGradient id="blobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%">
+        <animate attributeName="stop-color" dur="7s" repeatCount="indefinite"
+          values="#7B78FF;#9B8CFF;#6F6DFF;#7B78FF"/>
+      </stop>
+      <stop offset="100%">
+        <animate attributeName="stop-color" dur="7s" repeatCount="indefinite"
+          values="#4B49E6;#6A68F0;#3E3CD8;#4B49E6"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Animated blob BEHIND only "I'm" -->
+  <g filter="url(#shadow)">
+    <path fill="url(#blobGrad)" opacity="0.95">
+      <animate attributeName="d" dur="5.8s" repeatCount="indefinite"
+        values="
+          M560,62
+          C628,30 705,48 726,98
+          C747,148 707,198 640,205
+          C573,212 504,185 492,138
+          C480,91 506,82 560,62 Z;
+
+          M560,56
+          C640,24 716,60 734,112
+          C752,164 694,205 625,212
+          C556,219 486,176 482,126
+          C478,76 506,74 560,56 Z;
+
+          M554,70
+          C624,40 704,48 724,102
+          C744,156 704,196 638,203
+          C572,210 505,186 492,144
+          C479,102 500,90 554,70 Z;
+
+          M560,62
+          C628,30 705,48 726,98
+          C747,148 707,198 640,205
+          C573,212 504,185 492,138
+          C480,91 506,82 560,62 Z
+        "/>
+      <animateTransform attributeName="transform" type="translate" dur="4.6s" repeatCount="indefinite"
+        values="0 0; 8 2; 0 0"/>
+    </path>
+  </g>
+
+  <!-- BIG title (separate text nodes like Alex) -->
+  <text x="290" y="165" text-anchor="middle"
+        font-size="96" font-weight="900"
+        fill="#FFFFFF" stroke="#0B0F19" stroke-opacity="0.55" stroke-width="10"
+        paint-order="stroke"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
+    Hey!
+  </text>
+
+  <text x="610" y="165" text-anchor="middle"
+        font-size="96" font-weight="900"
+        fill="#FFFFFF" stroke="#0B0F19" stroke-opacity="0.55" stroke-width="10"
+        paint-order="stroke"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
+    I’m
+  </text>
+
+  <text x="860" y="165" text-anchor="middle"
+        font-size="96" font-weight="900"
+        fill="#FFFFFF" stroke="#0B0F19" stroke-opacity="0.55" stroke-width="10"
+        paint-order="stroke"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
+    Ali
+  </text>
+</svg>
