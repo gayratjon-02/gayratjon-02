@@ -27,7 +27,7 @@
 
 ## Feel free to drop me a line
 
-<a href="mailto:your.email@example.com">
+<a href="s-202386005@sillain.ac.kr">
   <img src="https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://www.upwork.com/freelancers/~01719c3ae301384b5f?mp_source=share">
