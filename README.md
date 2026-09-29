@@ -3,7 +3,7 @@
   <!-- Hero Banner -->
   <a href="https://gayratjon.me" target="_blank">
     <img
-      src="https://raw.githubusercontent.com/gayratjon-02/gayratjon-02/main/assets/hero.svg?v=8"
+      src="https://raw.githubusercontent.com/gayratjon-02/gayratjon-02/main/assets/hero.svg?v=9"
       alt="Hey! I'm Ali"
       width="920"
     />
@@ -14,7 +14,7 @@
   <!-- Dynamic Typing Subtitle (AI & Full-Stack Focused) -->
   <a href="https://gayratjon.me" target="_blank">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Senior+AI+%26+Full-Stack+Engineer+%F0%9F%A4%96;LLMs+%E2%80%A2+OpenAI+%E2%80%A2+Anthropic+Claude+%E2%80%A2+Gemini;Generative+AI+Pipelines+%26+Multimodal+Systems+%E2%9A%A1;NestJS+%E2%80%A2+Next.js+%E2%80%A2+Python+%E2%80%A2+TypeScript;Architecting+Production-Ready+AI+SaaS+%F0%9F%9A%80"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Senior+AI+%26+Full-Stack+Engineer+%F0%9F%A4%96;LLMs+%E2%80%A2+OpenAI+%E2%80%A2+Anthropic+Claude+%E2%80%A2+Gemini;LoRA+Fine-Tuning+%E2%80%A2+Whisper+STT+%E2%80%A2+SSE+Streaming;NestJS+%E2%80%A2+Next.js+%E2%80%A2+Python+%E2%80%A2+Spring+Boot;Architecting+Production-Ready+AI+SaaS+%F0%9F%9A%80"
       alt="Typing SVG"
     />
   </a>
@@ -22,7 +22,7 @@
   <br/>
 
   <p align="center">
-    📍 <strong>South Korea (Seoul / Busan) 🇰🇷</strong> &nbsp;|&nbsp; 
+    📍 <strong>Seoul, South Korea 🇰🇷</strong> &nbsp;|&nbsp; 
     🤖 <strong>Senior AI & Full-Stack Engineer</strong> &nbsp;|&nbsp; 
     🚀 <strong>Open to Global Remote Roles</strong>
   </p>
@@ -35,11 +35,11 @@
     <a href="https://www.upwork.com/freelancers/~01719c3ae301384b5f?mp_source=share" target="_blank">
       <img src="https://img.shields.io/badge/Upwork-Top%20Rated%20(5.0%20%E2%98%85)-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork Top Rated" />
     </a>
-    <a href="https://staticengine.com" target="_blank">
-      <img src="https://img.shields.io/badge/Current-AI%20SaaS%20Platform-7C3AED?style=for-the-badge&logo=fastapi&logoColor=white" alt="Current Project" />
+    <a href="https://www.altong.com" target="_blank">
+      <img src="https://img.shields.io/badge/Altong.com-AI%20Platform-0284C7?style=for-the-badge&logo=openai&logoColor=white" alt="Altong" />
     </a>
-    <a href="https://github.com/gayratjon-02?tab=repositories" target="_blank">
-      <img src="https://img.shields.io/badge/Repositories-77%2B-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+    <a href="https://staticengine.com" target="_blank">
+      <img src="https://img.shields.io/badge/StaticEngine-AI%20SaaS-7C3AED?style=for-the-badge&logo=fastapi&logoColor=white" alt="StaticEngine" />
     </a>
     <img src="https://komarev.com/ghpvc/?username=gayratjon-02&style=for-the-badge&color=7c3aed&labelColor=0d1117&label=VISITORS" alt="Profile Views" />
   </p>
@@ -50,7 +50,9 @@
     &nbsp;&nbsp;•&nbsp;&nbsp;
     <a href="https://www.upwork.com/freelancers/~01719c3ae301384b5f?mp_source=share" target="_blank">💼 <b>Hire on Upwork</b></a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://staticengine.com" target="_blank">🤖 <b>StaticEngine (Live AI SaaS)</b></a>
+    <a href="https://www.altong.com" target="_blank">🧠 <b>Altong.com</b></a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="https://staticengine.com" target="_blank">🤖 <b>StaticEngine</b></a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
     <a href="https://t.me/rakhmataliev02" target="_blank">💬 <b>Telegram Direct</b></a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -68,22 +70,25 @@ engineer:
   name: "Gayratjon Ali Rakhmataliev"
   title: "Senior AI & Full-Stack Engineer"
   portfolio: "https://gayratjon.me"
-  location: "South Korea (Seoul / Busan) · Open to Remote (US & Europe)"
+  location: "Seoul, South Korea 🇰🇷 · Open to Remote (US & Europe)"
   ai_specialization:
     - "Multi-Provider LLM Orchestration (OpenAI GPT-4o, Anthropic Claude 3.5, Google Gemini)"
-    - "Generative AI Pipelines: Image & Ad-Creative Generation, Whisper Speech-to-Text"
-    - "Streaming Architectures, Function Calling, Prompt Engineering & Multimodal Workflows"
-    - "Asynchronous AI Task Queues (BullMQ / Redis)"
+    - "LoRA Model Fine-Tuning (Fine-tuned Qwen3-8B beating GPT-4o 73.1% vs 44% at $0 cost)"
+    - "Generative AI Pipelines: Image & Ad-Creative Gen, Whisper Speech-to-Text"
+    - "Real-time SSE Token Streaming, Multi-Turn Memory & AI Worker Queues"
   fullstack_core:
-    - "TypeScript, Python, Node.js, NestJS, Next.js, React Native, PostgreSQL, Docker"
-  current_role: "Senior AI & Full-Stack Engineer @ NOMAD (Architecting staticengine.com for US client)"
+    - "TypeScript, Python, Java 17, NestJS, Next.js, Spring Boot, FastAPI, PostgreSQL, Docker"
+  current_roles:
+    - "Full-Stack & AI Engineer @ Altong (Seoul)"
+    - "Senior AI Full-Stack Engineer @ NOMAD (staticengine.com for US client)"
   credentials: "420+ Contract Hours, 5.0 Star Rating on Upwork"
 ```
 
-- 🤖 **AI & LLM Orchestration:** End-to-end production integration of frontier models (**OpenAI GPT-4o, Anthropic Claude 3.5 Sonnet, Google Gemini**), featuring prompt optimization, streaming responses, and intelligent agent routing.
-- 🎙️ **Audio & Generative Pipelines:** Built speech-to-transaction engines with **OpenAI Whisper** and automated multi-modal ad-creative pipelines handling high concurrency.
-- ⚡ **Scalable Backend Systems:** Architecting resilient **NestJS / Node.js** backends, GraphQL & RESTful APIs, **BullMQ** worker queues, **WebSockets**, and Stripe credit/subscription billing.
-- ☁️ **DevOps & Production Delivery:** Containerizing microservices with **Docker & Compose**, reverse proxies via **NGINX**, and deploying high-uptime workloads on **Linux (Ubuntu) & AWS**.
+- 🧠 **In-House LLMs & Fine-Tuning:** Fine-tuned **Qwen3-8B with LoRA** for Altong's enterprise classifier, outperforming **GPT-4o (73.1% vs 44.0%)** on internal holdout at **p95 678ms and $0 inference cost** on company hardware.
+- 🤖 **Multi-Provider LLM Orchestration:** End-to-end production pipelines integrating **OpenAI (GPT-4o), Anthropic Claude (3.5 Sonnet), and Google Gemini**, featuring prompt optimization, SSE streaming, and intelligent agent routing.
+- 🎙️ **Audio & Generative Pipelines:** Built speech-to-transaction engines with **OpenAI Whisper** and automated multi-modal ad-creative pipelines handling high concurrency via **BullMQ / Redis**.
+- ⚡ **Scalable Enterprise Backends:** Architecting production systems across **NestJS, Spring Boot (Java 17), FastAPI**, sharded **MySQL (MyBatis/ShardingSphere)**, **PostgreSQL (Prisma)**, **GraphQL**, and **WebSockets**.
+- ☁️ **DevOps & Infrastructure:** Containerized deployments via **Docker & Compose**, **NGINX**, and high-uptime production workloads on **Linux (Ubuntu) & AWS**.
 
 ---
 
@@ -100,6 +105,19 @@ engineer:
   <tbody>
     <tr>
       <td>
+        <b>🧠 Altong</b><br/>
+        <sub>Enterprise AI Assistant & LLM Platform</sub>
+      </td>
+      <td>
+        Multi-lingual AI Assistant for Korea's leading knowledge-sharing platform (5 languages). Built end-to-end with real-time SSE token streaming, multi-turn memory, and voice input. Fine-tuned <b>Qwen3-8B with LoRA</b> beating GPT-4o at $0 cost. Backend powered by Java 17, Spring Boot, sharded MySQL, FastAPI, Next.js, and TypeScript.
+      </td>
+      <td>
+        <a href="https://www.altong.com" target="_blank"><code>altong.com</code> ↗</a><br/>
+        <code>Production (Seoul)</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <b>🤖 StaticEngine</b><br/>
         <sub>AI Image & Ad-Creative Platform</sub>
       </td>
@@ -108,7 +126,7 @@ engineer:
       </td>
       <td>
         <a href="https://staticengine.com" target="_blank"><code>staticengine.com</code> ↗</a><br/>
-        ⭐ 5-star review
+        ⭐ 5-star review (420+ hrs)
       </td>
     </tr>
     <tr>
@@ -169,51 +187,46 @@ engineer:
 
 <br/>
 
-<div align="center">
-
-#### 🤖 Artificial Intelligence & LLMs
-<p>
-  <img src="https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Anthropic_Claude_3.5-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic Claude" />
-  <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
-  <img src="https://img.shields.io/badge/OpenAI_Whisper_STT-10A37F?style=for-the-badge&logo=openai&logoColor=white" alt="Whisper" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-6366F1?style=for-the-badge&logo=codeforces&logoColor=white" alt="Prompt Engineering" />
-  <img src="https://img.shields.io/badge/Multimodal_AI-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Multimodal AI" />
-  <img src="https://img.shields.io/badge/BullMQ_AI_Queues-CC3534?style=for-the-badge&logo=redis&logoColor=white" alt="BullMQ" />
-</p>
-
-</div>
-
-<br/>
-
 <table>
   <tr>
-    <td width="22%" align="center"><b>Languages</b></td>
+    <td width="22%" align="center"><b>🤖 AI & LLM Systems</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=py,ts,js,html,css&theme=dark" alt="Languages" />
+      <img src="https://img.shields.io/badge/OpenAI_GPT--4o-0f172a?style=for-the-badge&logo=openai&logoColor=10a37f" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Claude_3.5_Sonnet-0f172a?style=for-the-badge&logo=anthropic&logoColor=d97706" alt="Claude" />
+      <img src="https://img.shields.io/badge/Google_Gemini-0f172a?style=for-the-badge&logo=googlegemini&logoColor=8e75c2" alt="Gemini" />
+      <img src="https://img.shields.io/badge/LoRA_Fine--Tuning-0f172a?style=for-the-badge&logo=huggingface&logoColor=ffd21e" alt="LoRA" />
+      <img src="https://img.shields.io/badge/Whisper_STT-0f172a?style=for-the-badge&logo=openai&logoColor=38bdf8" alt="Whisper" />
+      <img src="https://img.shields.io/badge/LangChain-0f172a?style=for-the-badge&logo=langchain&logoColor=34d399" alt="LangChain" />
+      <img src="https://img.shields.io/badge/SSE_Streaming-0f172a?style=for-the-badge&logo=fastapi&logoColor=009688" alt="Streaming" />
+      <img src="https://img.shields.io/badge/BullMQ_Queues-0f172a?style=for-the-badge&logo=redis&logoColor=f87171" alt="BullMQ" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>Backend & APIs</b></td>
+    <td width="22%" align="center"><b>💻 Core Languages</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,graphql,prisma,postgres,mongodb,redis&theme=dark" alt="Backend Stack" />
+      <img src="https://skillicons.dev/icons?i=ts,js,py,java,html,css&theme=dark" alt="Core Languages" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>Frontend & Mobile</b></td>
+    <td width="22%" align="center"><b>⚡ Backend & APIs</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,redux&theme=dark" alt="Frontend Stack" />
+      <img src="https://skillicons.dev/icons?i=nestjs,nodejs,spring,fastapi,graphql,express,redis,postgres,mysql,mongodb,prisma&theme=dark" alt="Backend Stack" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>DevOps & Cloud</b></td>
+    <td width="22%" align="center"><b>🎨 Frontend & Mobile</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,vite,redux&theme=dark" alt="Frontend Stack" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%" align="center"><b>☁️ DevOps & Cloud</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,aws,linux,git,github,gitlab,vercel&theme=dark" alt="DevOps Stack" />
     </td>
   </tr>
   <tr>
-    <td width="22%" align="center"><b>Testing & Tools</b></td>
+    <td width="22%" align="center"><b>🧪 Tools & Testing</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=jest,cypress,postman,webpack,figma&theme=dark" alt="Tools & Testing" />
     </td>
